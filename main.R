@@ -243,5 +243,6 @@ fpca.fit <- fpca.sc( ydata = data.frame(.id = fit$.obs,
                                         .value = fit$.value1),
                      nbasis = 10,
                      pve = 0.95);gc()
-
-#save.image("sediment_pffr.RData")
+#' you should run the following statement the first time you run main.R
+#' this way you don't need to run the functional regression each time you want to use other scripts
+save.image("sediment_pffr.RData")
