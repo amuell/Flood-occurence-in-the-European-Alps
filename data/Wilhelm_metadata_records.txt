@@ -1,0 +1,140 @@
+# European Alps Paleoflood Data during the Holocene
+#-----------------------------------------------------------------------
+#               World Data Service for Paleoclimatology, Boulder
+#                                   and
+#                      NOAA Paleoclimatology Program
+#-----------------------------------------------------------------------
+# Template Version 4.0
+# Encoding: UTF-8
+# NOTE: Please cite original publication, online resource and date accessed when using this data.
+# If there is no publication information, please cite Investigator, title, online resource and date accessed.
+#
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# NOAA_Landing_Page: https://www.ncdc.noaa.gov/access/paleo-search/study/34712
+#   Landing_Page_Description: NOAA Landing Page of this file's parent study, which includes all study metadata.
+#
+# Study_Level_JSON_Metadata: https://www.ncei.noaa.gov/pub/data/metadata/published/paleo/json/noaa-recon-34712.json
+#   Study_Level_JSON_Description: JSON metadata of this data file's parent study, which includes all study metadata.
+#
+# Data_Type: Climate Reconstructions
+#
+# Dataset_DOI:
+#
+# Science_Keywords: Streamflow Reconstruction, Little Ice Age (LIA), Medieval Climate Anomaly (MCA), decadal resolution
+#---------------------------------------
+# Resource_Links
+#
+# Data_Download_Resource: https://www.ncei.noaa.gov/pub/data/paleo/reconstructions/europe/wilhelm2021/wilhelm2021-RecordsUsed_Metadata.txt
+#   Data_Download_Description: NOAA Template File; Metadata for Records Used in Synthesis Collection
+#
+# Related_Online_Resource: https://www.ncei.noaa.gov/pub/data/paleo/reconstructions/europe/wilhelm2021/wilhelm2021-PaleofloodCounts.txt
+#   Data_Download_Description: NOAA Template File; Paleoflood Count Data
+#
+# Related_Online_Resource: https://www.ncei.noaa.gov/pub/data/paleo/reconstructions/europe/wilhelm2021/wilhelm2021-PaleofloodDates.txt
+#   Data_Download_Description: NOAA Template File; Paleoflood Event Date Data
+#
+#---------------------------------------
+# Contribution_Date
+#    Date: 2021-11-08
+#---------------------------------------
+# File_Last_Modified_Date
+#    Date: 2021-11-08
+#---------------------------------------
+# Title
+#    Study_Name: European Alps Paleoflood Data during the Holocene
+#---------------------------------------
+# Investigators
+#      Investigators: Wilhelm, B.; Rapuc, W.; Amann, B.; Anselmetti, F.S.; Arnaud, F.; Blanchet, J.; Brauer, A.; Czymzik, M.; Giguet-Covex, C.; Gilli, A.; Glur, L.; Grosjean, M.; Irmler, R.; Nicolle, M.; Sabatier, P.; Swierczynski, T.; Wirth, S.B.
+#---------------------------------------
+# Description_Notes_and_Keywords
+#        Description: Synthesis of paleoflood records from lake sediment sequences of the European Alps covering the last centuries to the Holocene
+#         Provided Keywords: Paleoflood, lake sediments European Alps, MCA, LIA, Holocene
+#---------------------------------------
+# Publication
+# Authors: Wilhelm, B.; Rapuc, W.; Amann, B.; Anselmetti, F.S.; Arnaud, F.; Blanchet, J.; Brauer, A.; Czymzik, M.; Giguet-Covex, C.; Gilli, A.; Glur, L.; Grosjean, M.; Irmler, R.; Nicolle, M.; Sabatier, P.; Swierczynski, T.; Wirth, S.B.
+# Published_Date_or_Year: 
+# Published_Title: 
+# Journal_Name: Nature Geoscience
+# Volume: To be published
+# Edition: 
+# Issue: 
+# Pages: 
+# Report Number: 
+# DOI: 
+# Online_Resource: 
+# Full_Citation: 
+# Abstract: 
+#---------------------------------------
+# Funding_Agency
+#    Funding_Agency_Name: 
+#    Grant: 
+#---------------------------------------
+# Site Information
+# Site_Name: Central European Alps
+# Location: Europe
+# Northernmost_Latitude: 48
+# Southernmost_Latitude: 44
+# Easternmost_Longitude: 13.5
+# Westernmost_Longitude: 5.5
+# Elevation_m: 
+#---------------------------------------
+# Data_Collection
+#   Collection_Name: CollectionMetadata Paleoflood_events_Eu_Alps_2021 Wilhelm2021
+#   First_Year: 9000
+#   Last_Year: -50
+#   Time_Unit: cal yr BP
+#   Parameter_Keywords: streamflow
+#   Core_Length_m: 
+#   Notes: 
+#---------------------------------------
+# Synthesis Collection Metadata Fields
+# NOTE: These are the fields used to capture the metadata about data sources used in a synthesis study.
+# Each row of this table corresponds to a column in the SourceDataTable file listed above in the Online_Resource URLs.
+# The rows here are linked to the columns in the data table using the ID field.
+# Metadata fields that follow that are preceded by "##" in columns one and two.
+## dataID	dataset ID  NOTE: This field is used to tie the data's metadata to the data. This value will be the column header in the data table
+## FullDataSetCode	A name for the data collection
+## archiveType	archive or data type of the collection
+## latitude	latitude of site in decimal degrees North
+## longitude	longitude of site in decimal degrees East
+## elevation	elevation of site in meters
+## startYear	start year in year CE
+## endYear	end year in year CE
+## Citation	citation text or DOI for original publication source of data
+## Original_Source_Data_URL	Original Source URL or DOI(if available) for the data presented here
+## variable_used	Variable from original source that is being used
+## data_accessed	Date the original source data was acquired
+## notes	Any additional information about the use of the record that is not covered in the fields above
+#---------------------------------------
+# RecordsUsed_Metadata:
+# Missing_Values: 
+dataID	FullDataSetCode	archiveType	latitude	longitude	elevation	startYear	endYear	Citation	Original_Source_Data_URL	variable_used	variable_used	data_accessed
+ALO	Allos	paleolimnology	44.23	6.72	2230	-59	1300	10.1016/j.yqres.2012.03.003		paleoflood_occurrence	date of occurrence of extreme paleoflood	
+ALZ	Alzasca	paleolimnology	46.26	8.59	1855	-60	10000	10.1016/j.quascirev.2013.09.002		paleoflood_occurrence		
+AMM	Ammersee	paleolimnology	48.00	11.12	533	-49	5510	10.1016/j.quascirev.2012.11.010		paleoflood_occurrence		
+ANT	Anterne	paleolimnology	45.99	6.79	2063	-57	10100	10.1016/j.yqres.2011.11.003		paleoflood_occurrence		
+BAL	Baldegg	paleolimnology	47.2	8.26	463	-52	10100	10.1038/srep02770		paleoflood_occurrence		
+BAR	Blanc Aig. Rouges	paleolimnology	45.98	6.92	2352	0	1300	10.1002/jqs.2609		paleoflood_occurrence	date of occurrence of extreme paleoflood	
+BLB	Blanc Belledonne	paleolimnology	45.18	5.97	2170	-58	210	10.1007/s10584-011-0376-2		paleoflood_occurrence		
+LDB	Bourget	paleolimnology	45.77	5.84	231	-62	300	NA	this study	paleoflood_occurrence	date of occurrence of extreme paleoflood	
+CAD	Cadagno	paleolimnology	46.54	8.71	1921	-59	12000	10.1016/j.gca.2013.06.017		paleoflood_occurrence		
+BRA	di Braies	paleolimnology	46.69	12.08	1492	-50	2900	10.1016/j.geomorph.2006.01.013		paleoflood_occurrence		
+FAE	Faelen	paleolimnology	47.25	9.42	1446	-59	9250	10.1038/srep02770		paleoflood_occurrence		
+FOR	ForÃ©ant	paleolimnology	44.71	6.99	2620	-64	1050	10.5194/cp-12-299-2016		paleoflood_occurrence	date of occurrence of extreme paleoflood	
+GAR	Garlate	paleolimnology	45.82	9.41	198	-61	6500	10.1016/j.quascirev.2013.09.002		paleoflood_occurrence		
+GLA	Glattalp	paleolimnology	46.92	8.9	1850	-61	10400	10.1038/srep02770		paleoflood_occurrence		
+GRI	Grimsel	paleolimnology	46.57	8.33	1908	20	9300	10.1038/srep02770		paleoflood_occurrence		
+HIN	Hinterburg	paleolimnology	46.72	8.07	1514	-60	8300	10.1038/srep02770		paleoflood_occurrence		
+SCH	Hinterer Schw.	paleolimnology	47.18	9.33	1159	-59	11000	10.1038/srep02770		paleoflood_occurrence		
+IFF	Iffig	paleolimnology	46.39	7.41	2065	-60	10100	10.1038/srep02770		paleoflood_occurrence		
+INF	Inferiore di Laures	paleolimnology	45.41	7.24	2450	-63	200	10.5194/nhess-17-613-2017		paleoflood_occurrence		
+LAU	Lauerz	paleolimnology	47.04	8.61	447	-54	1900	10.1038/srep02770		paleoflood_occurrence		
+LED	Ledro	paleolimnology	45.87	10.75	653	-58	10500	10.1002/grl.50741		paleoflood_occurrence		
+MON	Mondsee	paleolimnology	47.48	13.23	481	-55	7100	10.1016/j.quascirev.2013.08.018		paleoflood_occurrence		
+OES	Oeschinen	paleolimnology	46.50	7.73	1580	-60	1106	10.1016/j.quascirev.2015.03.002		paleoflood_occurrence		
+SAV	Savine	paleolimnology	45.10	6.55	2447	-64	5630	10.1016/j.quascirev.2017.06.019		paleoflood_occurrence	date of occurrence of extreme paleoflood	
+SEE	Seelisberg	paleolimnology	46.96	8.57	740	-54	10700	10.1038/srep02770		paleoflood_occurrence		
+TRU	Trueb	paleolimnology	46.79	8.39	1766	30	2600	10.1038/srep02770		paleoflood_occurrence		
+THU	Thun	paleolimnology	46.69	7.71	558	-57	100	10.1111/j.1365-3091.2011.01237.x		paleoflood_occurrence		
