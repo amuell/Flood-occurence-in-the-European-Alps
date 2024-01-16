@@ -89,7 +89,8 @@ mat <- out_sample_error(data = data.s,
                         Xcov = X,
                         yind = year.s)
 
-colnames(mat) <- names(data1)
+colnames(mat) <- lakes
+rownames(mat) <- year.s
 
 mean(colSums(mat^2, na.rm = T))
 
@@ -200,6 +201,7 @@ m4 <- error.map.time(data = mat, t = 700, W = X, size)
 m5 <- error.map.time(data = mat, t = 900, W = X, size)
 m6 <- error.map.time(data = mat, t = 1000, W = X, size)
 
+# Subfigure of Figure 14
 m1
 m2
 m3
@@ -217,4 +219,3 @@ m6
 # mapshot(x = m4, file = "./plot/error_h15_t1700.png", vwidth = width, vheight = height)
 # mapshot(x = m5, file = "./plot/error_h15_t1900.png", vwidth = width, vheight = height)
 # mapshot(x = m6, file = "./plot/error_h15_t2000.png", vwidth = width, vheight = height)
-
